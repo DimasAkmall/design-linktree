@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  width: 100vw;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+#profil {
+  margin-top: 5rem;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+
+#profil img {
+  width: 180px;
+  border-radius: 60% 39% 73% 35%;
+}
+
+#profil h2 {
+  margin: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+#profil p {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+#contact {
+  padding: 1.2rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact a img {
+  margin: auto;
+  width: 1.5rem;
+}
+
+#project {
+  padding: 0 3rem;
+}
+
+#project a {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#project a .box {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#kit {
+  background-image: url(image/MyLaptop.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#portofolio {
+  background-image: url(image/portofolio.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+#more {
+  background-image: url(image/more.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  #profil {
+    padding: 0 2rem;
+  }
+
+  #profil img {
+    width: 220px;
+  }
+
+  #contact {
+    padding: 1rem 2rem;
+  }
+
+  #project {
+    padding: 0 1.5rem;
+  }
+
+  footer {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+}
